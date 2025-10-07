@@ -57,10 +57,7 @@ function inverse() {
 function log() {
     display.value = Math.log10(parseFloat(display.value));
 }
-// Helper function to safely evaluate the display
-function safeEval() {
-    return display.value ? eval(display.value) : 0;
-}
+
 
 function calculateResult() {
     try {
